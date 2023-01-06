@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 100;
+}
+.logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: opacity 0.20s;
+}
+.logo:hover {
+    opacity: 0.7;
+}
+.rightside {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    max-width: 50%;
+}
+.bu {
+    transition: 0.20s;
+}
+.bu:hover {
+    opacity: 0.7;
+}
+.buu {
+    transition: 0.20s;
+}
+.buu:hover {
+    opacity: 0.7;
+}.buuu {
+    transition: 0.20s;
+}
+.buuu:hover {
+    opacity: 0.7;
+}
+.rightside div {
+    color: black;
+}
+.rightside div {
+    font-weight: 500;
+    margin-right: 100px;
+}
+a {
+    text-decoration: none;
+}
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.background-image {
+    width: 1370px;
+    max-width: 100%;
+    filter: brightness(0.7);
+
+}
+.about {
+    position: absolute;
+    color: white;
+    font-size: 14.598540145985401vw;
+    font-weight: 500;
+    user-select: none
+}
+.contactdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logoo {
+    width: 600px;
+    margin-left: -1px;
+}
+.title {
+    margin-top: -150px;
+    font-size: 60px;
+    font-weight: 500;
+    user-select: none
+}
+.links {
+    display: inline-block;
+    color: black;
+    padding-right: 20px;
+    margin-top: -55px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.links:hover {
+    opacity: 0.8;
+}
+.ifw {
+    display: flex;
+}
+.end {
+    background-color: rgb(238, 238, 238);
+    height: 270px;
+    margin-top: 200px;
+}
+.contact-icon {
+    width: 30px;
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+.icons {
+    margin-left: 20px;
+    display: flex; 
+    align-items: center;                                 
+}
+.VERA {
+    font-weight: 700;
+    margin-left: 38px;
+    padding-top: 60px;
+    font-size: 35px;
+    user-select: none
+}
+
+
+
+
+
+@media screen and (max-width: 430px) {
+    .logo {
+        width: 100px;
+        margin-left: 20px;
+    }
+    .background-image {
+        margin-top: -18px;
+    }
+    .logoo {
+        width: 500px;
+    }
+    .title {
+        margin-top: -130px;
+    }
+    .links {
+        margin-top: -40px;
+        font-size: 16px;
+    }
+    .end {
+        width: 100%;
+    }
+    .buuu {
+        display: none;
+    }
+    .header {
+        height: 60px;
+        width: 430px;
+    }
+    .bu {
+        margin: 0;
+    }
+    .rightside div {
+        font-size: 14px;
+    }
+    .rightside {
+        margin-right: 50px;
+    }
+    .slideshow-container {
+        max-width: 300px;
+        max-height: 410px;
+    } 
+    .end {
+        margin-top: 1000px;
+        width: 420px;
+    }
+
+    .VERA {
+        margin-top: -20px;
+    }
+    .perfume {
+        width: 300px;
+        margin-right: 20px;
+    }
+    .about-div-text span {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .title {
+        font-size: 25px;
+    }
+}
+
+  @media screen and (max-width: 990px) and (min-width: 680px) {
+    .logo {
+        width: 150px;
+    }
+    .rightside div {
+        margin-right: 60px;
+    }
+
+  
+  }
+  @media screen and (max-width: 680px) {
+    .end {
+        height: 200px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .rightside div {
+        margin-right: 40px;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .about-div {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .perfume {
+        margin-left: 10vw;
+    }
+  }

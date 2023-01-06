@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 100;
+    margin-bottom: 80px;
+}
+.logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: opacity 0.20s;
+}
+.logo:hover {
+    opacity: 0.7;
+}
+.rightside {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    max-width: 50%;
+}
+.bu {
+    transition: 0.20s;
+}
+.bu:hover {
+    opacity: 0.7;
+}
+.buu {
+    transition: 0.20s;
+}
+.buu:hover {
+    opacity: 0.7;
+}.buuu {
+    transition: 0.20s;
+}
+.buuu:hover {
+    opacity: 0.7;
+}
+.rightside div {
+    color: black;
+}
+.rightside div {
+    font-weight: 500;
+    margin-right: 100px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+  .text {
+    position: absolute;
+    left: 650px;
+    font-size: 60px;
+    margin-top: 80px;
+    white-space: nowrap;
+  }
+  @media screen and (max-width: 990px) {
+    .text {
+        font-size: 31.79196704428424px;
+    }
+  }
+@media screen and (max-width: 860px) {
+    .perf {
+        margin-left: 4.25531914893617vw;
+    }
+}
+  .box {
+    position: absolute;
+    left: 650px;
+    font-size: 20px;
+    width: 420px;
+    position: absolute;
+    top: 270px;
+    font-family: poppins;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .box2 {
+    position: absolute;
+    left: 650px;
+    font-size: 20px;
+    width: 420px;
+    position: absolute;
+    top: 500px;
+    font-family: poppins;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  .end {
+    background-color: rgb(238, 238, 238);
+    height: 270px;
+    margin-top: 160px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 1300px;
+    
+}
+.contact-icon {
+    width: 30px;
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+.icons {
+    margin-left: 20px;
+    display: flex; 
+    align-items: center;                                 
+}
+.VERA {
+    font-weight: 700;
+    margin-left: 38px;
+    padding-top: 60px;
+    font-size: 35px;
+    user-select: none
+}
+
+.women {
+  font-size: 20px;
+  margin-top: -60px;
+}
+.men {
+    font-size: 20px;
+    position: absolute;
+    top: 360px;
+}
+option:hover {
+  background-color: rgb(243, 243, 243);
+}
+.perf {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+  margin-top: 125px;
+  margin-left: 200px;
+  }
+  @media screen and (max-width: 1030px) { 
+    .end {
+        right: auto;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .perf {
+        margin-left: 10.964912280701755vw;
+        width: 39.17727717923604vw;
+        height: 55.19779208831647vw;
+    }
+    .box, .box2, .text {
+        left: 58.51063829787234vw;
+    }
+  }
+  @media screen and (max-width: 990px) and (min-width: 680px) {
+    .box, .box2 {
+        width: 35.4251012145749vw;
+        font-size: 1.64778578784758vw;
+    }
+    .box2 {
+        top: 410px;
+    }
+    .box {
+        top: 200px;
+    }
+    .women {
+        margin-top: -30px;
+    }
+    .men {
+        top: 270px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .rightside div {
+        margin-right: 60px;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    .box, .box2 {
+        width: 242px;
+        font-size: 12.424304840370754px;
+    }
+    .box2 {
+        top: 360px;
+    }
+    .box {
+        top: 200px;
+    }
+    .women {
+        margin-top: -30px;
+    }
+    .men {
+        margin-top: -120px;
+    }
+    .perf {
+        width: 267px;
+        height: 376px;
+    }
+    .box, .box2, .text {
+        left: 370px;
+    }
+    .perf {
+        margin-left: 74px;
+    }
+    .end {
+        height: 200px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .rightside div {
+        margin-right: 40px;
+    }
+  }
+  .full {
+    display: flex;
+  }
+  @media screen and (max-width: 430px) {
+    .logo {
+        width: 100px;
+        margin-left: 20px;
+    }
+    .header {
+        height: 60px;
+        width: 430px;
+    }
+    .rightside div {
+        font-size: 14px;
+    }
+    .perf {
+        width: 300px;
+        height: 410px;
+    }
+    .text {
+        top: 460px;
+        left: 70px;
+    }
+    .box {
+        top: 665px;
+        left: 70px;
+    }
+    .box2 {
+        left: 70px;
+        top: 820px;
+    }
+    .end {
+        width: 420px;
+    }
+
+
+    .VERA {
+        margin-top: -20px;
+    }
+
+  }
+  

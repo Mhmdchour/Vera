@@ -1,0 +1,319 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 100;
+}
+.background-image {
+    max-width: 100%;
+    filter: brightness(0.7);
+}
+.background {
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    font-family: poppins;
+}
+.logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: opacity 0.20s;
+}
+.logo:hover {
+    opacity: 0.7;
+}
+.rightside {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    max-width: 50%;
+}
+.bu {
+    transition: 0.20s;
+}
+.bu:hover {
+    opacity: 0.7;
+}
+.buu {
+    transition: 0.20s;
+}
+.buu:hover {
+    opacity: 0.7;
+}.buuu {
+    transition: 0.20s;
+}
+.buuu:hover {
+    opacity: 0.7;
+}
+.rightside div {
+    color: black;
+}
+.rightside div {
+    font-weight: 500;
+    margin-right: 100px;
+}
+.name {
+    position: absolute;
+    color: white;
+    font-size: 200px;
+    font-weight: 500;
+    user-select: none
+    
+}
+
+.info {
+    position: absolute;
+    margin-bottom: -200px;
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+    user-select: none
+}
+.shop {
+    position: absolute;
+    margin-bottom: -350px;
+    color: black;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-family: poppins;
+    transition: opacity 0.20s;
+}
+.shop:hover {
+    opacity: 0.8;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.perfume {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+.perfume1 {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.follow {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    user-select: none
+}
+.user {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 150px;
+    transition: color 0.20s;
+}
+.user:hover {
+    color: rgb(224, 160, 169);
+}
+.end {
+    background-color: rgb(238, 238, 238);
+    height: 270px;
+    width: 100%;
+}
+.contact-icon {
+    width: 30px;
+    margin-left: 20px;
+    vertical-align: middle;
+
+}
+.icons {
+    margin-left: 20px;
+    display: flex; 
+    align-items: center;                                 
+}
+.VERA {
+    font-weight: 700;
+    margin-left: 38px;
+    padding-top: 60px;
+    font-size: 35px;
+    user-select: none
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 14.705882352941176vw;
+}
+.info {
+    font-size: 2.2058823529411766vw;
+}
+.shop {
+    font-size: 1.1764705882352942vw;
+}
+    
+@media screen and (max-width: 430px) {
+    .logo {
+        width: 100px;
+        margin-left: 20px;
+    }
+    .background-image {
+        margin-top: -18px;
+        height: 400px;
+        object-fit: cover;
+        object-position:center;
+       
+    }
+    .perfume {
+        display: none;
+    }
+    .perfume1 {
+        display:block;
+        
+    }
+
+    .logoo {
+        max-width: 100;
+        width: 500px;
+    }
+    .title {
+        margin-top: -130px;
+    }
+    .name {
+        font-size: 100px;
+    }
+    .info {
+        font-size: 18px;
+    }
+    .shop {
+        font-size: 12px;
+        
+
+    }
+    .links {
+        margin-top: -40px;
+        font-size: 16px;
+    }
+
+    .buuu {
+        display: none;
+    }
+    .header {
+        height: 60px;
+        width: 430px;
+    }
+    .bu {
+        margin: 0;
+    }
+    .rightside div {
+        font-size: 14px;
+    }
+    .rightside {
+        margin-right: 50px;
+    }
+    .slideshow-container {
+        max-width: 300px;
+        max-height: 410px;
+    } 
+    .end {
+        margin-top: 1000px;
+        width: 420px;
+    }
+
+    .VERA {
+        margin-top: -20px;
+    }
+    .about-div-text span {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .title {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1030px) { 
+    .end {
+        right: auto;
+    }
+
+    
+  }
+  @media screen and (max-width: 990px) and (min-width: 680px) {
+    .logo {
+        width: 150px;
+    }
+    .rightside div {
+        margin-right: 60px;
+    }
+
+    .name {
+        font-size: 14.705882352941176vw;
+    }
+    .info {
+        font-size: 2.2058823529411766vw;
+        margin-bottom: -14.619883040935672vw;
+    }
+    .shop {
+        font-size: 1.1764705882352942vw;
+        margin-bottom: -25.584795321637426vw;
+        padding: 10px 20px 10px 20px;
+    }
+    .perfume {
+        width: 24.390243902439025vw;
+        height: 28.45528455284553vw;
+    }
+    .follow {
+        font-size: 4.08997955010225vw;
+    }
+
+  
+  }
+  @media screen and (max-width: 680px) {
+    .end {
+        height: 200px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .rightside div {
+        margin-right: 40px;
+    }
+
+    .info {
+        margin-bottom: -100px;
+    }
+    .shop {
+        margin-bottom: -170px;
+        padding: 5px 10px 5px 10px;
+    }
+    .perfume {
+        width: 166.09px;
+        height: 193.77px;
+    }
+    .follow {
+        font-size: 28px;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .about-div {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }
